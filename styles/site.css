@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities); 
+
+@theme {
+  --*: initial;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-mike6: #000dd0;
+  --color-background: #f3f4f6; /* Light gray background */
+  --color-surface: #ffffff; /* White surface/card color */
+  --color-text: #374151; /* Dark gray text */
+  --color-brand: #1E3A8A; /* Navy blue brand color */
+  --color-accent: #64B5F6; /* Light blue accent color */
+  --color-error: #EF5350; /* Red error color */
+  --color-success: #66BB6A; /* Green success color */
+  --color-muted: #9CA3AF; /* Muted gray color */
+
+  --spacing-0: 0px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 30px;
+
+  --font-family-sans: Inter, sans-serif;
+  --font-family-mono: "Roboto Mono", monospace;
+
+  --font-weight-normal: 400; 
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --border-radius-none: 0px;
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 8px;
+  --border-radius-full: 9999px;
+
+  --border-width-0: 0px;
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-4: 4px;
+ 
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+}
+ 
